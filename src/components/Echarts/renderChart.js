@@ -1,8 +1,8 @@
 import toString from '../../util/toString';
 
 export default props => {
-  const height = `${props.height || 400}px`;
-  const width = props.width ? `${props.width}px` : 'auto';
+  const height = `${props.height || 400}dp`;
+  const width = props.width ? `${props.width}dp` : 'auto';
   return `
     document.getElementById('main').style.height = "${height}";
     document.getElementById('main').style.width = "${width}";
